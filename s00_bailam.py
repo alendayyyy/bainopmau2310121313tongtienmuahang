@@ -31,5 +31,23 @@ tongtienmuahang(None)                   | None
 
 #region bailam
 def tongtienmuahang(gia_truoc_thue):
-  return 'todo'
+  """Tính tổng tiền sau thuế khi mua hàng với giá tiền :gia_truoc_thue
+
+  Args:
+    gia_truoc_thue: Giá tiền trước thuế.
+
+  Returns:
+    Tổng tiền sau thuế.
+  """
+
+  tien_thue = gia_truoc_thue * 0.1
+  tong_tien = gia_truoc_thue + tien_thue
+
+  return int(tong_tien)
+ 
+  
+
+
+
+  
 #endregion bailam
